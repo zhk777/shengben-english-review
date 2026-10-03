@@ -1,0 +1,289 @@
+{
+  "title": "专升本英语语法库（基础弱优先版）",
+  "version": "1.0",
+  "sources": [
+    "时态语法建议.docx：一般现在、一般过去、一般将来、现在完成四大核心时态及其关键词、结构与题型",
+    "30Day.md：30 天学习顺序与现在进行时、情态动词、被动语态、非谓语、从句、主谓一致等模块",
+    "补充：按专升本常见单选、词形转换、阅读与基础写作需求整理"
+  ],
+  "learningPrinciple": [
+    "每次只学习一个语法点：先读口诀和结构，再圈时间词或标志词，最后做 2—5 道短题。",
+    "做题顺序固定为：找时间/连接词 → 找主语 → 判断结构 → 变动词。",
+    "写作优先使用一般现在、一般过去、一般将来；现在完成时以读懂和单选辨认优先。",
+    "错题只保存错误原因、触发词、正确结构和一道代表题，不抄整页答案。"
+  ],
+  "dailyDynamicPractice": {
+    "enabledWhenApiConfigured": true,
+    "provider": "Qwen",
+    "schedule": "每天 08:00（Asia/Shanghai）由后端定时生成；前端打开页面时只读取当天已生成的题目。",
+    "fixedVsDynamic": {
+      "fixed": "modules 中的语法规则、口诀、结构、标志词、例句与学习顺序是固定课程内容，AI 不得修改。",
+      "dynamic": "每日练习题、句子语境、干扰项和巩固短语可每天变化，但必须只考当天指定模块与已学内容。"
+    },
+    "dailyQuestionPlan": {
+      "newModuleQuestions": 8,
+      "dueWrongBookQuestions": 4,
+      "previousReviewQuestions": 3,
+      "total": 15,
+      "difficulty": "基础为主：约 70% 基础识别与填空，20% 易混对比，10% 简单句子翻译或改错。"
+    },
+    "generationInputs": ["date", "todayModuleId", "todayModuleRules", "alreadyLearnedModuleIds", "recentQuestionFingerprints", "grammarWrongBook", "learnerLevel=基础薄弱"],
+    "outputSchema": {
+      "requiredFields": ["id", "moduleId", "type", "question", "options", "answer", "explanation", "testedRule", "difficulty", "source"],
+      "types": ["choice", "fillBlank", "wordForm", "errorCorrection", "sentenceTranslation"],
+      "answerVisibility": "答案在用户提交或选择“查看解析”后显示；不可预先暴露。"
+    },
+    "qualityGuardrails": [
+      "每题只考一个核心规则，句子长度以 8—18 词为主，不使用生僻词或超纲复杂句。",
+      "选择题必须只有一个正确答案；干扰项应来自相邻时态、主谓一致或 to do/doing 等真实易错点。",
+      "题干、答案和解析必须与固定模块规则一致；无法验证或存在歧义的题目不发布。",
+      "生成后先进行 JSON 格式、字段完整性、答案唯一性和重复题检查；失败时自动启用本地备用题库。",
+      "AI 只生成练习，不改写用户的学习进度、正确率和错题记录。"
+    ],
+    "qwenPrompt": "你是专升本英语基础语法练习命题助手。学生基础薄弱。固定语法课程内容由系统提供，你只能围绕 todayModule 及 alreadyLearnedModules 命题，不能改变、补充或否定固定规则。请生成 15 道不重复的中文界面英语练习：8 道当天模块新题、4 道错题本薄弱点复练、3 道已学模块滚动复习。约 70% 为基础单选或填空，20% 为易混搭配对比，10% 为简单改错或句子翻译。每题只测一个规则，英文句子以 8—18 词为主，用词常见。选择题必须有且仅有一个正确答案。输出严格 JSON 数组；每项包含 id、moduleId、type、question、options（非选择题为空数组）、answer、explanation、testedRule、difficulty、source。答案与解析必须和固定模块规则一致；有歧义的题不要生成。",
+    "fallback": "如果千问调用失败、返回格式不合格或校验未通过，使用对应 moduleId 的本地备用题；首页提示“已使用备用练习”，但不中断当天学习。"
+  },
+  "modules": [
+    {
+      "id": "G01",
+      "title": "句子成分与词性",
+      "scheduledDay": 1,
+      "priority": "foundation",
+      "coreRule": "先找谁（主语）做什么（谓语），再找动作对象（宾语）。名词表示人或事物，动词表示动作，形容词修饰名词，副词修饰动作或形容词。",
+      "structure": "主语 + 动词 + 宾语",
+      "example": "Students learn English.",
+      "referenceChinese": "学生学习英语。",
+      "commonError": "把句首所有名词都当作主语，或遗漏真正的谓语动词。",
+      "practiceFocus": "找主语、谓语、宾语；判断基础词性。"
+    },
+    {
+      "id": "G02",
+      "title": "be 动词与人称代词",
+      "scheduledDay": 2,
+      "priority": "foundation",
+      "coreRule": "I 用 am；he、she、it 和单数名词用 is；you、we、they 和复数名词用 are。否定在 be 后加 not，疑问句把 be 提到主语前。",
+      "structure": "主语 + am/is/are + 表语",
+      "cueWords": ["I", "he", "she", "it", "we", "they"],
+      "example": "They are ready for the test.",
+      "referenceChinese": "他们已经准备好参加考试。",
+      "commonError": "把 I are、they is 或 she are 混用。",
+      "practiceFocus": "am/is/are 选择、否定句、一般疑问句。"
+    },
+    {
+      "id": "G03",
+      "title": "名词、冠词和复数",
+      "scheduledDay": 3,
+      "priority": "foundation",
+      "coreRule": "单数可数名词通常需要 a/an/the 或其他限定词；一般复数加 -s/-es。a 用在辅音音素前，an 用在元音音素前。",
+      "structure": "a/an/the + 名词；名词复数 -s/-es",
+      "example": "She has an English book.",
+      "referenceChinese": "她有一本英语书。",
+      "commonError": "单数可数名词前没有限定词；把 an university 当成正确形式。",
+      "practiceFocus": "a/an/the、单复数、可数与不可数名词。"
+    },
+    {
+      "id": "G04",
+      "title": "一般现在时",
+      "scheduledDay": 4,
+      "priority": "coreTense",
+      "memoryTip": "经常、习惯、客观事实；主语三单，动词加 s/es。",
+      "coreRule": "表示经常性或习惯性动作、客观事实。主语是 he/she/it 或单数人名时，实义动词加 s/es；do/does 构成否定和疑问时，does 后的动词回到原形。",
+      "structure": "I/you/we/they + 动词原形；he/she/it + 动词-s/es",
+      "cueWords": ["often", "usually", "always", "sometimes", "every day", "every week"],
+      "example": "He often reads books in the library.",
+      "referenceChinese": "他经常在图书馆读书。",
+      "commonError": "he often read；或 Does he reads?",
+      "practiceFocus": "三单变化、do/does、时间标志词判断。"
+    },
+    {
+      "id": "G05",
+      "title": "现在进行时",
+      "scheduledDay": 5,
+      "priority": "coreTense",
+      "memoryTip": "正在发生，看 now、Look!、Listen!；be 动词后接动词-ing。",
+      "coreRule": "表示说话时正在进行的动作；根据主语选择 am/is/are，实义动词使用 -ing 形式。",
+      "structure": "主语 + am/is/are + doing",
+      "cueWords": ["now", "at the moment", "Look!", "Listen!"],
+      "example": "They are studying English now.",
+      "referenceChinese": "他们现在正在学习英语。",
+      "commonError": "遗漏 be 动词，或把 are study 当成正确形式。",
+      "practiceFocus": "一般现在时与现在进行时对比；动词 -ing 变化。",
+      "note": "这是 30Day.md 的衔接模块；时态建议文件将另外四种时态列为最高优先。"
+    },
+    {
+      "id": "G06",
+      "title": "一般过去时",
+      "scheduledDay": 6,
+      "priority": "coreTense",
+      "memoryTip": "过去发生，已经做完；动词变过去式。",
+      "coreRule": "表示过去发生且已结束的动作。规则动词一般加 -ed；常见不规则变化要单独记。did 构成否定和疑问时，did 后的动词用原形。",
+      "structure": "主语 + 动词过去式；did + 动词原形",
+      "cueWords": ["yesterday", "last week", "last year", "ago", "in 2020"],
+      "irregularVerbs": ["go-went", "see-saw", "tell-told", "meet-met", "buy-bought"],
+      "example": "They went to Beijing last year.",
+      "referenceChinese": "他们去年去了北京。",
+      "commonError": "did went；或 last year 后仍用 go/goes。",
+      "practiceFocus": "规则与不规则过去式、did、时间标志词判断。"
+    },
+    {
+      "id": "G07",
+      "title": "一般将来时",
+      "scheduledDay": 8,
+      "priority": "coreTense",
+      "memoryTip": "将来要做，还没发生；will + 原形 / be going to do。",
+      "coreRule": "will 表示将来动作；be going to 常表达已计划或打算的动作。两种结构后都接动词原形。",
+      "structure": "will + 动词原形；am/is/are going to + 动词原形",
+      "cueWords": ["tomorrow", "next week", "in the future", "this summer"],
+      "example": "We will have a picnic next Sunday.",
+      "referenceChinese": "我们下周日将举行野餐。",
+      "commonError": "will going；或 will has。",
+      "practiceFocus": "will 与 be going to、时间标志词、be 动词选择。"
+    },
+    {
+      "id": "G08",
+      "title": "四种基础时态综合",
+      "scheduledDay": 9,
+      "priority": "coreTense",
+      "coreRule": "先圈时间提示词再判断时态：习惯用一般现在，正在发生用现在进行，过去完成用一般过去，未来安排用一般将来。",
+      "structure": "一般现在 / 现在进行 / 一般过去 / 一般将来",
+      "example": "She studies every day, but she is studying now.",
+      "referenceChinese": "她每天学习，但她现在正在学习。",
+      "commonError": "只看动词形式，不看时间词和具体语境。",
+      "practiceFocus": "混合时态选择题；每题标记时间提示词。"
+    },
+    {
+      "id": "G09",
+      "title": "情态动词",
+      "scheduledDay": 10,
+      "priority": "highFrequency",
+      "coreRule": "can/could/may/might/must/should/will/would/had better 后接动词原形；have to 后接动词原形。",
+      "structure": "情态动词 + 动词原形",
+      "cueWords": ["can", "must", "should", "may", "had better"],
+      "example": "You should review the new words tonight.",
+      "referenceChinese": "你今晚应该复习新词。",
+      "commonError": "should to do；或 can studies。",
+      "practiceFocus": "含义辨认（能力、建议、义务、可能）与动词原形。"
+    },
+    {
+      "id": "G10",
+      "title": "形容词、副词与比较",
+      "scheduledDay": 11,
+      "priority": "highFrequency",
+      "coreRule": "形容词通常修饰名词或放在 be 后；副词通常修饰动词、形容词或另一副词。比较级常见结构为 -er / more + 形容词。",
+      "structure": "be + 形容词；动词 + 副词；A is 比较级 than B",
+      "example": "She speaks English carefully.",
+      "referenceChinese": "她认真地说英语。",
+      "commonError": "把 careful 和 carefully 的位置混用。",
+      "practiceFocus": "词性判断、-ly 副词、基础比较级。"
+    },
+    {
+      "id": "G11",
+      "title": "介词",
+      "scheduledDay": 12,
+      "priority": "highFrequency",
+      "coreRule": "时间常用 at（具体时刻）、on（具体某天）、in（月、年、季节、较长时间）；地点通过 in/on/at 和方向介词理解。",
+      "structure": "at/on/in + 时间；介词 + 名词/doing",
+      "example": "The exam starts at eight on Monday.",
+      "referenceChinese": "考试在周一八点开始。",
+      "commonError": "把具体某天用 in，把月份用 on。",
+      "practiceFocus": "at/on/in、地点方向、介词后名词或 doing。"
+    },
+    {
+      "id": "G12",
+      "title": "现在完成时",
+      "scheduledDay": 13,
+      "timeSlot": "第 13 天补充 15 分钟：在原有“考试与学习场景词汇、前五个专题复习”之后进行，不替换原计划任务。",
+      "doesNotReplaceOriginalTask": true,
+      "priority": "coreTense",
+      "memoryTip": "动作过去开始，影响到现在；already、yet、since、for 是重点。",
+      "coreRule": "表示过去动作对现在有影响或持续到现在。he/she/it 用 has，其他主语用 have，后接过去分词。",
+      "structure": "have/has + done",
+      "cueWords": ["already", "yet", "since", "for"],
+      "example": "He has worked in this school for five years.",
+      "referenceChinese": "他在这所学校工作五年了。",
+      "commonError": "has work；或 since 后接一段时间、for 后接时间点。",
+      "practiceFocus": "have/has、过去分词、since + 时间点、for + 时间段。",
+      "writingAdvice": "基础写作不强求使用本时态，以读懂和完成单选为主。"
+    },
+    {
+      "id": "G13",
+      "title": "被动语态",
+      "scheduledDay": 15,
+      "priority": "highFrequency",
+      "coreRule": "动作承受者作主语时用被动语态。先根据时态选 be 的形式，再接过去分词。",
+      "structure": "am/is/are/was/were/will be/can be + done",
+      "example": "English is used in many countries.",
+      "referenceChinese": "英语在许多国家被使用。",
+      "commonError": "遗漏 be 动词，或使用过去式而不是过去分词。",
+      "practiceFocus": "现在、过去、将来和情态动词的被动形式。"
+    },
+    {
+      "id": "G14",
+      "title": "非谓语动词",
+      "scheduledDay": 16,
+      "priority": "highFrequency",
+      "coreRule": "不把所有动词都当作谓语。want/hope/decide 常接 to do；enjoy/finish/avoid/mind/suggest 常接 doing；固定搭配按短语记。",
+      "structure": "to do / doing",
+      "example": "She enjoys reading English stories.",
+      "referenceChinese": "她喜欢读英语故事。",
+      "commonError": "enjoy to read；look forward to do。",
+      "practiceFocus": "与短语库联动，重点练 try、stop、forget、remember 的 to do/doing 对比。"
+    },
+    {
+      "id": "G15",
+      "title": "宾语从句",
+      "scheduledDay": 17,
+      "priority": "highFrequency",
+      "coreRule": "动词后可跟一个完整句子作宾语。基础题重点使用陈述语序：连接词 + 主语 + 谓语。",
+      "structure": "主句 + that/if/whether/疑问词 + 主语 + 谓语",
+      "example": "I know that he is busy.",
+      "referenceChinese": "我知道他很忙。",
+      "commonError": "从句仍用疑问语序，如 I know where is he。",
+      "practiceFocus": "that/if/whether/what/how 与陈述语序。"
+    },
+    {
+      "id": "G16",
+      "title": "定语从句入门",
+      "scheduledDay": 18,
+      "priority": "highFrequency",
+      "coreRule": "who 指人，which 指物，that 可指人或物。先找到被修饰的名词，再连接后面的说明。",
+      "structure": "名词 + who/which/that + 从句",
+      "example": "The book that I bought is useful.",
+      "referenceChinese": "我买的那本书很有用。",
+      "commonError": "不知道 who/which/that 前面的名词才是被修饰对象。",
+      "practiceFocus": "找先行词、who/which/that 基础选择。"
+    },
+    {
+      "id": "G17",
+      "title": "状语从句入门",
+      "scheduledDay": 19,
+      "priority": "highFrequency",
+      "coreRule": "when/before/after/until 表时间，if/unless 表条件，because 表原因，although 表让步。先识别连接词表达的关系。",
+      "structure": "连接词 + 从句，主句；或 主句 + 连接词 + 从句",
+      "example": "If it rains, we will stay at home.",
+      "referenceChinese": "如果下雨，我们将待在家里。",
+      "commonError": "because 和 so 同时连接同一因果句。",
+      "practiceFocus": "时间、条件、原因、让步连接词辨认。"
+    },
+    {
+      "id": "G18",
+      "title": "主谓一致",
+      "scheduledDay": 20,
+      "priority": "highFrequency",
+      "coreRule": "先确定真正主语的单复数，再选谓语。each、everyone、someone、everybody 等一般按单数处理。",
+      "structure": "单数主语 + 单数谓语；复数主语 + 复数谓语",
+      "example": "Everyone needs enough rest.",
+      "referenceChinese": "每个人都需要充足的休息。",
+      "commonError": "被 of 后的复数名词干扰，或把 everyone 当复数。",
+      "practiceFocus": "each/everyone/someone 与真正主语识别。"
+    }
+  ],
+  "reviewRouting": {
+    "day22": ["G04", "G05", "G06", "G07", "G12"],
+    "day23": "从已完成模块中按正确率最低的一个专题补练。",
+    "day24": "从已完成模块中按正确率第二低的一个专题补练。",
+    "day26": ["G04", "G06", "G07", "G09", "G13", "G18"],
+    "day27": "只补一个对总分影响最大的薄弱专题。",
+    "wrongBookFields": ["moduleId", "questionId", "userAnswer", "correctAnswer", "errorReason", "wrongCount", "nextReviewAt"]
+  }
+}

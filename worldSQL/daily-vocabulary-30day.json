@@ -1,0 +1,195 @@
+{
+  "title": "专升本英语 30 天每日词库（基础强化版）",
+  "version": "1.0",
+  "usage": "新词日每天 50 词：coreWords 为 30Day.md 原定 25 词，extendedWords 为按当天语法与专升本常见场景补充的 25 词。每项格式为 英文|中文释义。第 7、14、21、28—30 天不增加新词，按原计划进行回收、错词与模拟复习。",
+  "dailyNewWordTarget": 50,
+  "reviewDays": [7, 14, 21, 28, 29, 30],
+  "days": [
+    {
+      "day": 1,
+      "theme": "认识句子和词性",
+      "coreWords": ["I|我", "you|你；你们", "he|他", "she|她", "it|它", "we|我们", "they|他们", "this|这个", "that|那个", "these|这些", "those|那些", "person|人", "people|人们", "student|学生", "teacher|老师", "friend|朋友", "family|家庭", "man|男人", "woman|女人", "boy|男孩", "girl|女孩", "name|名字", "class|班级；课", "school|学校", "English|英语"],
+      "extendedWords": ["my|我的", "your|你的；你们的", "his|他的", "her|她的", "our|我们的", "their|他们的", "who|谁", "what|什么", "where|哪里", "here|这里", "there|那里", "yes|是；好的", "no|不；没有", "not|不", "and|和；并且", "but|但是", "or|或者", "a|一个", "an|一个", "the|这；那；这些", "subject|主语；主题", "verb|动词", "noun|名词", "object|宾语；物体", "word|单词"]
+    },
+    {
+      "day": 2,
+      "theme": "be 动词和人称代词",
+      "coreWords": ["be|是", "have|有", "do|做", "go|去", "come|来", "make|制作", "take|拿；带走", "get|得到", "give|给", "know|知道", "think|想；认为", "see|看见", "look|看", "watch|观看", "hear|听见", "say|说", "tell|告诉", "speak|说话", "ask|问", "answer|回答", "use|使用", "need|需要", "want|想要", "like|喜欢", "work|工作"],
+      "extendedWords": ["am|是", "is|是", "are|是", "was|是（过去式）", "were|是（过去式）", "yes|是；好的", "please|请", "thank|感谢", "thanks|谢谢", "welcome|欢迎；不客气", "meet|遇见；会面", "live|居住", "learn|学习", "teach|教", "read|阅读", "write|写", "listen|听", "talk|交谈", "call|打电话；称呼", "help|帮助", "show|展示", "try|尝试", "keep|保持", "let|让", "become|变成"]
+    },
+    {
+      "day": 3,
+      "theme": "名词、冠词和复数",
+      "coreWords": ["book|书", "pen|笔", "paper|纸；试卷", "phone|电话", "computer|电脑", "table|桌子", "chair|椅子", "door|门", "window|窗户", "room|房间", "home|家", "house|房子", "building|建筑物", "city|城市", "country|国家", "street|街道", "road|道路", "shop|商店", "hospital|医院", "library|图书馆", "office|办公室", "station|车站", "park|公园", "place|地方", "center|中心"],
+      "extendedWords": ["bed|床", "desk|书桌", "wall|墙", "floor|地板；楼层", "light|灯；光", "key|钥匙", "bag|包", "box|盒子", "cup|杯子", "bottle|瓶子", "clock|时钟", "picture|图片", "kitchen|厨房", "bathroom|浴室；卫生间", "garden|花园", "village|村庄", "bridge|桥", "museum|博物馆", "restaurant|餐馆", "supermarket|超市", "store|商店", "cinema|电影院", "bank|银行", "post office|邮局", "bus stop|公交车站"]
+    },
+    {
+      "day": 4,
+      "theme": "一般现在时",
+      "coreWords": ["good|好的", "bad|坏的", "big|大的", "small|小的", "long|长的", "short|短的", "old|老的；旧的", "young|年轻的", "new|新的", "high|高的", "low|低的", "easy|容易的", "difficult|困难的", "important|重要的", "right|正确的；右边", "wrong|错误的", "same|相同的", "different|不同的", "happy|开心的", "sad|难过的", "busy|忙的", "free|空闲的；免费的", "strong|强壮的", "weak|弱的", "ready|准备好的"],
+      "extendedWords": ["every|每一；每个", "day|天", "morning|早晨", "afternoon|下午", "evening|傍晚", "often|经常", "usually|通常", "always|总是", "sometimes|有时", "never|从不", "weekend|周末", "routine|日常习惯", "habit|习惯", "breakfast|早餐", "lunch|午餐", "dinner|晚餐", "early|早", "late|晚；迟", "first|首先；第一", "then|然后", "finally|最后", "again|再一次", "each|每一个", "other|其他的", "daily|每天的"]
+    },
+    {
+      "day": 5,
+      "theme": "现在进行时",
+      "coreWords": ["live|居住", "study|学习", "learn|学会", "read|阅读", "write|写", "listen|听", "eat|吃", "drink|喝", "sleep|睡觉", "wake|醒来", "walk|走路", "run|跑", "sit|坐", "stand|站", "open|打开", "close|关闭", "start|开始", "finish|完成", "help|帮助", "keep|保持", "find|找到", "call|打电话；称呼", "meet|遇见", "wait|等待", "remember|记得"],
+      "extendedWords": ["now|现在", "currently|目前", "today|今天", "at the moment|此刻", "doing|正在做", "working|正在工作", "reading|正在阅读", "writing|正在写", "speaking|正在说", "listening|正在听", "playing|正在玩", "cooking|正在做饭", "cleaning|正在打扫", "running|正在跑", "walking|正在走", "waiting|正在等待", "wearing|正在穿着", "looking|正在看", "making|正在制作", "having|正在有；正在吃", "coming|正在来", "going|正在去", "leaving|正在离开", "using|正在使用", "learning|正在学习"]
+    },
+    {
+      "day": 6,
+      "theme": "一般过去时",
+      "coreWords": ["day|天", "week|周", "month|月", "year|年", "today|今天", "tomorrow|明天", "yesterday|昨天", "morning|早晨", "afternoon|下午", "evening|傍晚", "night|夜晚", "time|时间", "hour|小时", "minute|分钟", "early|早", "late|晚；迟", "before|以前；在……之前", "after|以后；在……之后", "now|现在", "always|总是", "usually|通常", "often|经常", "sometimes|有时", "never|从不", "soon|很快"],
+      "extendedWords": ["last|上一个；最后的", "ago|以前", "past|过去", "went|去（go 的过去式）", "came|来（come 的过去式）", "saw|看见（see 的过去式）", "said|说（say 的过去式）", "told|告诉（tell 的过去式）", "had|有（have 的过去式）", "did|做（do 的过去式）", "made|制作（make 的过去式）", "took|拿；带走（take 的过去式）", "got|得到（get 的过去式）", "gave|给（give 的过去式）", "thought|想；认为（think 的过去式）", "found|找到（find 的过去式）", "felt|感觉（feel 的过去式）", "left|离开（leave 的过去式）", "began|开始（begin 的过去式）", "became|变成（become 的过去式）", "bought|买（buy 的过去式）", "brought|带来（bring 的过去式）", "met|遇见（meet 的过去式）", "read|读（read 的过去式）", "wrote|写（write 的过去式）"]
+    },
+    {
+      "day": 8,
+      "theme": "一般将来时",
+      "coreWords": ["play|玩", "buy|买", "sell|卖", "pay|支付", "bring|带来", "send|发送", "show|展示", "put|放", "leave|离开", "stay|停留", "move|移动", "turn|转动；变成", "try|尝试", "change|改变", "grow|成长", "become|变成", "happen|发生", "begin|开始", "end|结束", "carry|携带", "hold|握住", "follow|跟随", "stop|停止", "continue|继续", "return|返回"],
+      "extendedWords": ["will|将会", "shall|将要", "future|将来", "next|下一个", "later|以后", "plan|计划", "hope|希望", "promise|承诺", "decide|决定", "expect|期待", "prepare|准备", "visit|参观；拜访", "arrive|到达", "travel|旅行", "join|参加", "invite|邀请", "choose|选择", "finish|完成", "soon|很快", "tonight|今晚", "next week|下周", "next month|下个月", "one day|有一天", "in the future|在将来", "be going to|打算；将要"]
+    },
+    {
+      "day": 9,
+      "theme": "四种基础时态综合",
+      "coreWords": ["father|父亲", "mother|母亲", "parent|父母之一", "brother|兄弟", "sister|姐妹", "child|孩子", "children|孩子们", "son|儿子", "daughter|女儿", "husband|丈夫", "wife|妻子", "worker|工人", "doctor|医生", "nurse|护士", "driver|司机", "farmer|农民", "police|警察", "customer|顾客", "guest|客人", "group|小组", "team|团队", "member|成员", "leader|领导者", "everyone|每个人", "someone|某人"],
+      "extendedWords": ["uncle|叔叔；舅舅", "aunt|阿姨；姑妈", "grandfather|祖父；外祖父", "grandmother|祖母；外祖母", "cousin|堂（表）兄弟姐妹", "neighbor|邻居", "classmate|同学", "colleague|同事", "manager|经理", "engineer|工程师", "artist|艺术家", "cook|厨师；做饭", "waiter|服务员", "waitress|女服务员", "salesman|男售货员", "visitor|访客", "stranger|陌生人", "owner|主人；所有者", "volunteer|志愿者", "player|运动员", "singer|歌手", "writer|作者", "reader|读者", "speaker|演讲者", "listener|听者"]
+    },
+    {
+      "day": 10,
+      "theme": "情态动词",
+      "coreWords": ["can|能", "could|能；可以", "may|可能；可以", "might|也许", "must|必须", "should|应该", "will|将会", "would|会；愿意", "shall|将要", "able|能够的", "possible|可能的", "impossible|不可能的", "sure|确信的", "maybe|也许", "really|真正地", "very|非常", "too|也；太", "also|也", "only|仅仅", "even|甚至", "still|仍然", "already|已经", "just|刚刚；只是", "again|再一次", "together|一起"],
+      "extendedWords": ["need to|需要", "have to|不得不", "ought to|应当", "had better|最好", "be able to|能够", "be allowed to|被允许", "permission|许可", "advice|建议", "suggestion|建议", "rule|规则", "duty|责任", "chance|机会", "perhaps|也许", "probably|很可能", "certainly|当然；一定", "definitely|肯定地", "never|绝不", "always|总是", "carefully|仔细地", "quickly|快速地", "slowly|慢慢地", "quietly|安静地", "together|一起", "alone|独自", "enough|足够地；足够的"]
+    },
+    {
+      "day": 11,
+      "theme": "形容词和副词",
+      "coreWords": ["beautiful|美丽的", "clean|干净的", "dirty|脏的", "fast|快的", "slow|慢的", "careful|仔细的", "careless|粗心的", "kind|友善的；种类", "friendly|友好的", "polite|有礼貌的", "quiet|安静的", "loud|大声的", "hot|热的", "cold|冷的", "warm|温暖的", "cool|凉爽的", "rich|富有的", "poor|贫穷的；差的", "full|满的", "empty|空的", "true|真实的", "false|错误的；假的", "safe|安全的", "dangerous|危险的", "useful|有用的"],
+      "extendedWords": ["quick|快速的", "quickly|快速地", "slowly|慢慢地", "carefully|仔细地", "easily|容易地", "hard|努力地；困难的", "hardly|几乎不", "well|好地", "badly|差地；严重地", "beautifully|美丽地", "happily|开心地", "sadly|伤心地", "strongly|强烈地", "weakly|虚弱地", "healthily|健康地", "clearly|清楚地", "correctly|正确地", "directly|直接地", "especially|尤其", "nearly|几乎", "enough|足够的；足够地", "quite|相当", "rather|相当；宁愿", "more|更多", "most|最多；最"]
+    },
+    {
+      "day": 12,
+      "theme": "介词和位置关系",
+      "coreWords": ["in|在……里面", "on|在……上面", "at|在；于", "to|向；到", "from|从", "for|为了；给", "with|和；用", "without|没有", "of|……的", "by|通过；在旁边", "about|关于", "under|在下面", "over|在上方；超过", "between|在两者之间", "among|在群体之间", "near|在附近", "behind|在后面", "beside|在旁边", "inside|在内部", "outside|在外部", "through|穿过内部", "across|横穿", "around|在周围", "into|进入", "out|出去；在外"],
+      "extendedWords": ["above|在……上方", "below|在……下方", "before|在……之前", "after|在……之后", "during|在……期间", "until|直到", "since|自从；因为", "within|在……之内", "beyond|超过；在……之外", "against|反对；靠着", "toward|朝向", "along|沿着", "past|经过；过去", "off|离开；关闭", "up|向上", "down|向下", "left|左边", "right|右边", "front|前面", "back|后面", "middle|中间", "corner|角落", "top|顶部", "bottom|底部", "opposite|在……对面"]
+    },
+    {
+      "day": 13,
+      "theme": "考试与学习场景词汇",
+      "coreWords": ["exam|考试", "test|测试", "question|问题", "choice|选择", "problem|问题；难题", "result|结果", "score|分数", "subject|科目", "lesson|课", "course|课程", "homework|作业", "exercise|练习", "practice|练习", "mistake|错误", "word|单词", "sentence|句子", "language|语言", "grammar|语法", "meaning|意思", "example|例子", "knowledge|知识", "skill|技能", "college|学院；大学", "university|大学", "education|教育"],
+      "extendedWords": ["answer|答案；回答", "correct|正确的；改正", "incorrect|不正确的", "blank|空白；空格", "complete|完成", "choose|选择", "match|匹配", "fill|填充", "translate|翻译", "explain|解释", "underline|在……下画线", "circle|圈出", "mark|标记；分数", "review|复习", "prepare|准备", "progress|进步；进度", "level|水平", "basic|基础的", "advanced|高级的", "improve|提高", "memorize|记忆", "pronounce|发音", "dictionary|词典", "article|文章", "paragraph|段落"]
+    },
+    {
+      "day": 15,
+      "theme": "被动语态",
+      "coreWords": ["build|建造", "create|创造", "produce|生产", "develop|发展", "improve|提高", "complete|完成", "include|包括", "provide|提供", "allow|允许", "require|要求", "choose|选择", "prepare|准备", "check|检查", "solve|解决", "report|报告", "explain|解释", "introduce|介绍", "protect|保护", "control|控制", "support|支持", "offer|提供", "receive|收到", "reach|到达", "pass|通过", "fail|失败"],
+      "extendedWords": ["made|被制作的；制作", "built|被建造的；建造", "written|被写的；写", "spoken|被说的；说", "known|被知道的；知道", "given|被给的；给", "taken|被拿走的；拿", "seen|被看见的；看", "found|被找到的；找到", "used|被使用的；使用", "called|被称为；称呼", "sent|被发送的；发送", "shown|被展示的；展示", "taught|被教的；教", "paid|被支付的；支付", "finished|被完成的；完成", "opened|被打开的；打开", "closed|被关闭的；关闭", "invited|被邀请的；邀请", "chosen|被选择的；选择", "required|被要求的；要求", "allowed|被允许的；允许", "protected|被保护的；保护", "published|被出版的；出版", "discovered|被发现的；发现"]
+    },
+    {
+      "day": 16,
+      "theme": "非谓语动词入门",
+      "coreWords": ["enjoy|喜欢；享受", "avoid|避免", "mind|介意", "suggest|建议", "agree|同意", "hope|希望", "expect|期待", "wish|希望", "decide|决定", "plan|计划", "promise|承诺", "refuse|拒绝", "seem|似乎", "forget|忘记", "understand|理解", "believe|相信", "feel|感觉", "prefer|更喜欢", "love|喜爱", "hate|讨厌", "spend|花费", "save|节省；保存", "succeed|成功", "mean|意思是", "consider|考虑"],
+      "extendedWords": ["want to|想要做", "need to|需要做", "learn to|学习做", "try to|尽力做", "begin to|开始做", "continue to|继续做", "remember to|记得要做", "forget to|忘记要做", "stop to|停下来去做", "ask someone to|请求某人做", "tell someone to|告诉某人做", "help to|帮助做", "be able to|能够做", "be ready to|准备做", "be happy to|高兴做", "enjoy doing|喜欢做", "finish doing|完成做", "keep doing|持续做", "practice doing|练习做", "avoid doing|避免做", "mind doing|介意做", "suggest doing|建议做", "consider doing|考虑做", "spend time doing|花时间做", "look forward to|期待"]
+    },
+    {
+      "day": 17,
+      "theme": "宾语从句与交流词汇",
+      "coreWords": ["information|信息", "message|消息", "letter|信", "email|电子邮件", "news|新闻", "story|故事", "idea|想法", "reason|原因", "fact|事实", "opinion|观点", "voice|声音；嗓音", "sound|声音", "picture|图片", "photo|照片", "video|视频", "conversation|对话", "discussion|讨论", "describe|描述", "talk|交谈", "communicate|交流", "reply|回复", "repeat|重复", "pronounce|发音", "translate|翻译", "mention|提到"],
+      "extendedWords": ["that|那个；引导从句", "whether|是否", "if|是否；如果", "what|什么", "who|谁", "which|哪一个", "when|什么时候", "where|哪里", "why|为什么", "how|怎样", "believe that|相信……", "think that|认为……", "know that|知道……", "say that|说……", "tell someone that|告诉某人……", "ask if|问是否……", "find out|查明", "make sure|确保", "be afraid|害怕", "be sure|确信", "agree with|同意", "hear from|收到……来信", "write to|写信给", "talk about|谈论", "listen to|听……"]
+    },
+    {
+      "day": 18,
+      "theme": "定语从句入门",
+      "coreWords": ["because|因为", "although|虽然", "if|如果", "unless|除非", "while|当……时；然而", "when|当……时", "since|自从；因为", "until|直到", "however|然而", "therefore|因此", "first|第一；首先", "second|第二", "next|下一个；接着", "finally|最后", "both|两者都", "either|两者之一", "neither|两者都不", "each|每一个", "every|每个", "other|其他的", "another|另一个", "all|全部", "some|一些", "any|任何；一些", "many|许多"],
+      "extendedWords": ["who|……的人", "which|……的物", "that|……的；那个", "whose|谁的", "whom|谁（宾格）", "person|人", "people|人们", "thing|事情；东西", "place|地方", "time|时间", "book|书", "student|学生", "teacher|老师", "friend|朋友", "city|城市", "reason|原因", "way|方式；道路", "the man who|……的那个人", "the book which|……的那本书", "the place where|……的地方", "the day when|……的那一天", "the reason why|……的原因", "one who|一个……的人", "something that|某件……的事", "all that|所有……的事"]
+    },
+    {
+      "day": 19,
+      "theme": "状语从句入门",
+      "coreWords": ["job|工作", "company|公司", "business|商业；生意", "market|市场", "service|服务", "manager|经理", "staff|员工", "factory|工厂", "government|政府", "public|公共的", "community|社区", "society|社会", "life|生活；生命", "world|世界", "local|当地的", "national|国家的", "international|国际的", "culture|文化", "history|历史", "law|法律", "rule|规则", "level|水平", "area|地区", "population|人口", "activity|活动"],
+      "extendedWords": ["condition|条件", "situation|情况", "cause|原因；导致", "effect|影响；效果", "purpose|目的", "result|结果", "reason|原因", "example|例子", "case|情况；案例", "way|方法；道路", "because of|因为", "so that|以便；因此", "as soon as|一……就……", "before|在……之前", "after|在……之后", "while|当……时", "when|当……时", "if|如果", "unless|除非", "although|虽然", "even if|即使", "as|因为；当……时", "once|一旦", "whenever|每当", "wherever|无论哪里"]
+    },
+    {
+      "day": 20,
+      "theme": "主谓一致与健康词汇",
+      "coreWords": ["health|健康", "body|身体", "head|头", "face|脸", "eye|眼睛", "ear|耳朵", "mouth|嘴", "hand|手", "arm|手臂", "leg|腿", "foot|脚", "heart|心脏", "food|食物", "water|水", "medicine|药", "sick|生病的", "healthy|健康的", "tired|疲劳的", "hungry|饥饿的", "thirsty|口渴的", "rest|休息", "pain|疼痛", "illness|疾病", "disease|疾病", "treatment|治疗"],
+      "extendedWords": ["exercise|锻炼；练习", "sleep|睡眠；睡觉", "diet|饮食", "fruit|水果", "vegetable|蔬菜", "meal|一餐", "breakfast|早餐", "hospital|医院", "doctor|医生", "patient|病人；耐心的", "care|照顾；关心", "recover|恢复", "prevent|预防", "protect|保护", "smoke|吸烟；烟", "stress|压力", "relax|放松", "energy|精力；能源", "fever|发烧", "cough|咳嗽", "advice|建议", "everyone|每个人", "each|每一个", "neither|两者都不", "either|两者之一"]
+    },
+    {
+      "day": 22,
+      "theme": "抽象高频词与限时训练",
+      "coreWords": ["way|方法；道路", "thing|事情；东西", "part|部分", "kind|种类", "type|类型", "side|一边；方面", "point|点；要点", "number|数字", "amount|数量", "order|顺序；命令", "purpose|目的", "effect|影响；效果", "cause|原因；导致", "difference|差别", "relationship|关系", "condition|条件", "situation|情况", "chance|机会", "decision|决定", "attention|注意", "interest|兴趣", "success|成功", "future|将来", "past|过去", "present|现在；目前的"],
+      "extendedWords": ["advantage|优点", "disadvantage|缺点", "problem|问题", "solution|解决办法", "idea|想法", "reason|原因", "fact|事实", "truth|真相", "choice|选择", "change|改变", "development|发展", "improvement|改进", "experience|经验", "ability|能力", "knowledge|知识", "skill|技能", "value|价值", "importance|重要性", "possibility|可能性", "necessity|必要性", "responsibility|责任", "opportunity|机会", "method|方法", "process|过程", "goal|目标"]
+    },
+    {
+      "day": 23,
+      "theme": "交通与地点信息",
+      "coreWords": ["travel|旅行", "trip|旅行", "journey|旅程", "visit|参观；拜访", "arrive|到达", "depart|出发", "ticket|票", "train|火车", "bus|公共汽车", "car|汽车", "bicycle|自行车", "plane|飞机", "airport|机场", "hotel|酒店", "map|地图", "direction|方向", "north|北方", "south|南方", "east|东方", "west|西方", "far|远的", "distance|距离", "passenger|乘客", "traffic|交通", "abroad|在国外"],
+      "extendedWords": ["subway|地铁", "taxi|出租车", "ship|船", "boat|小船", "platform|站台", "entrance|入口", "exit|出口", "gate|大门；登机口", "schedule|时间表", "route|路线", "fare|车费", "luggage|行李", "passport|护照", "visa|签证", "guide|向导；指南", "reservation|预订", "book|预订；书", "cancel|取消", "delay|延误", "lost|丢失的；迷路的", "straight|直的；直行", "left|左边", "right|右边", "cross|穿过", "turn|转弯"]
+    },
+    {
+      "day": 24,
+      "theme": "环境主题",
+      "coreWords": ["nature|自然", "environment|环境", "air|空气", "earth|地球；土地", "river|河流", "sea|海", "lake|湖", "mountain|山", "tree|树", "flower|花", "animal|动物", "weather|天气", "rain|雨", "snow|雪", "wind|风", "sun|太阳", "energy|能源；精力", "pollution|污染", "waste|浪费；废物", "green|绿色的", "reduce|减少", "reuse|再使用", "recycle|回收利用", "climate|气候", "natural|自然的"],
+      "extendedWords": ["forest|森林", "plant|植物；种植", "grass|草", "field|田野", "land|土地", "ocean|海洋", "soil|土壤", "resource|资源", "electricity|电", "plastic|塑料", "paper|纸", "rubbish|垃圾", "garbage|垃圾", "clean|清洁；打扫", "dirty|脏的", "protect|保护", "save|节约", "destroy|破坏", "damage|损害", "global|全球的", "temperature|温度", "season|季节", "spring|春天", "summer|夏天", "winter|冬天"]
+    },
+    {
+      "day": 25,
+      "theme": "金钱与购物",
+      "coreWords": ["money|钱", "price|价格", "cost|花费；成本", "value|价值", "cheap|便宜的", "expensive|昂贵的", "bank|银行", "card|卡片", "cash|现金", "account|账户", "product|产品", "store|商店", "item|物品；项目", "size|尺寸", "color|颜色", "sale|出售；促销", "bill|账单", "dollar|美元", "yuan|元", "afford|买得起", "borrow|借入", "lend|借出", "earn|赚得", "total|总数；总计", "budget|预算"],
+      "extendedWords": ["shop|商店；购物", "customer|顾客", "seller|卖方；售货员", "buy|买", "pay|支付", "spend|花费", "save|节省", "change|零钱；改变", "receipt|收据", "discount|折扣", "cost|花费；成本", "worth|值……钱的", "order|订购；订单", "online|在线的", "delivery|递送", "market|市场", "choose|选择", "try on|试穿", "fit|合身", "large|大的", "medium|中等的", "small|小的", "available|可获得的", "sold out|售罄的", "refund|退款"]
+    },
+    {
+      "day": 26,
+      "theme": "情绪、态度与阅读词",
+      "coreWords": ["afraid|害怕的", "angry|生气的", "excited|兴奋的", "worried|担心的", "surprised|惊讶的", "interested|感兴趣的", "bored|无聊的", "pleased|高兴的", "sorry|抱歉的", "proud|自豪的", "nervous|紧张的", "calm|平静的", "confident|自信的", "serious|严肃的；严重的", "lucky|幸运的", "strange|奇怪的", "common|常见的", "special|特别的", "certain|确定的", "clear|清楚的", "simple|简单的", "perfect|完美的", "necessary|必要的", "popular|受欢迎的", "favorite|最喜欢的"],
+      "extendedWords": ["feel|感觉", "feeling|感受", "emotion|情绪", "hopeful|充满希望的", "disappointed|失望的", "satisfied|满意的", "unsatisfied|不满意的", "comfortable|舒服的", "uncomfortable|不舒服的", "relaxed|放松的", "tired|疲劳的", "happy|快乐的", "unhappy|不开心的", "love|爱；喜爱", "hate|讨厌", "prefer|更喜欢", "enjoy|喜欢；享受", "care|在意；照顾", "mind|介意", "respect|尊重", "trust|信任", "believe|相信", "agree|同意", "disagree|不同意", "opinion|观点"]
+    },
+    {
+      "day": 27,
+      "theme": "学习过程与核心抽象词",
+      "coreWords": ["increase|增加", "decrease|减少", "add|添加", "remove|移除", "compare|比较", "select|选择", "correct|正确的；改正", "review|复习", "organize|组织", "record|记录", "mark|标记；分数", "notice|注意到；通知", "focus|集中", "achieve|实现", "goal|目标", "method|方法", "process|过程", "step|步骤", "key|关键的；钥匙", "main|主要的", "general|一般的；总体的", "detail|细节", "form|形式；表格", "section|部分", "content|内容"],
+      "extendedWords": ["analyze|分析", "practice|练习", "test|测试", "check|检查", "improve|提高", "develop|发展", "prepare|准备", "manage|管理", "arrange|安排", "continue|继续", "repeat|重复", "memorize|记住", "understand|理解", "apply|应用；申请", "solve|解决", "discover|发现", "explain|解释", "describe|描述", "introduce|介绍", "conclude|总结", "important|重要的", "possible|可能的", "different|不同的", "similar|相似的", "effective|有效的"]
+    },
+    {
+      "day": 7,
+      "theme": "第一周复习日",
+      "coreWords": [],
+      "extendedWords": [],
+      "reviewInstruction": "回收第 1—6 天的 300 个学习位；优先复习 A 类错词与反应慢的词。"
+    },
+    {
+      "day": 14,
+      "theme": "第二周复习日",
+      "coreWords": [],
+      "extendedWords": [],
+      "reviewInstruction": "回收第 8—13 天的 300 个学习位，并复习第一周 A 类错词。"
+    },
+    {
+      "day": 21,
+      "theme": "第三周复习日",
+      "coreWords": [],
+      "extendedWords": [],
+      "reviewInstruction": "回收第 15—20 天的 300 个学习位，并复习前两周 A 类错词。"
+    },
+    {
+      "day": 28,
+      "theme": "全部单词回收",
+      "coreWords": [],
+      "extendedWords": [],
+      "reviewInstruction": "快速回收所有已学词，反应慢或不会的词进入最终错词表。"
+    },
+    {
+      "day": 29,
+      "theme": "正式模拟",
+      "coreWords": [],
+      "extendedWords": [],
+      "reviewInstruction": "只复习最终错词表与模拟卷中重复出现的固定搭配。"
+    },
+    {
+      "day": 30,
+      "theme": "轻量复习与状态调整",
+      "coreWords": [],
+      "extendedWords": [],
+      "reviewInstruction": "最终错词分为已掌握与仍不熟两组；不增加新词。"
+    }
+  ]
+}
